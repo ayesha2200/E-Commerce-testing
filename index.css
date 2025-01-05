@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ndnav .links:hover::after {
+    width: 100%;
+  }
+  
+.ndnav .links::after {
+    content: '';
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 0;
+    height: 2.5px;
+    background-color: #ffe275;
+    transition: width 0.3s ease;
+  }
+.dropdown {
+    position: relative;
+    left: 12%;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.stnav{
+    background-color: black;
+    color: #ffe275;
+    height: 70px;
+} 
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.stnav p{
+    position: relative;
+    left: 38%;
+    font-size: large;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.webs{
+    color: #ffe275;
+    padding: 5px;
+    position: relative;
+    left: 90%;
+ }
+ .sidelogo{
+    color: #ffe275;
+    position: relative;
+    left: 60%;
+    padding: 8px;
+}
+.ndnav{
+    background-color: black;
+    height: 120px;
+}
+.logo{
+    position: relative;
+    left: 34%;
+    text-decoration: none;
+    color: #ffe275;
+    font-weight: 500;
+    font-size: 48px;
+}
+.links{
+    text-decoration: none;
+    color: #ffe275;
+    padding: 20px ;
+    font-size: large;
+    position: relative;
+    left: 14%;
+   
+} 
+
+.search{
+    color: #ffe275;
+    font-size: x-large;
+    position: relative;
+    left: 4%;
+    
+} 
+.video{
+    
+    width: 100%; 
+}
+.summersale{
+    text-align: center;
+    font-weight: 400;
+    font-size: xx-large;
+}
+.summersale button{
+    height: 30px;
+}
+
+#Save{
+    color: red;
+}
+.frontcards{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: rgb(129, 126, 126);
+}
+.fc1 img{
+    height: 250px;
+    width: 230px;
+    padding: 15px;
+   
+}
+.fc1 p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fc2 p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fc3 p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fc4 p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fc5 p{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fc1{
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    line-height: 30px;
+}
+.fc2{
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    line-height: 30px;
+}
+
+.fc2 img{
+    height: 250px;
+    width: 230px;
+    padding: 15px;
+}
+.fc3 img{
+    height: 250px;
+    width: 230px;
+    padding: 15px;
+}
+.fc3{
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    line-height: 30px;
+}
+
+.fc4{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    line-height: 30px;
+}
+
+.fc4 img{
+    height: 250px;
+    width: 230px;
+    padding: 15px;
+}
+.fc5{
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    line-height: 30px;
+}
+.fc5 img{
+    height: 250px;
+    width: 230px;
+    padding: 15px;
+}
+.fc1:hover {
+    transform: translateY(-10px);
+}
+.fc2:hover {
+    transform: translateY(-10px);
+}
+.fc3:hover {
+    transform: translateY(-10px);
+}
+.fc4:hover {
+    transform: translateY(-10px);
+}
+.fc5:hover {
+    transform: translateY(-10px);
+}
+
+
+.collection{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.img {
+    position: relative; /* Make the container a positioned element */
+    display: inline-block; /* Ensures the image and text are treated as one unit */
+    width: 300px; /* Set the desired width of the image */
+    height: auto;
+}
+
+.img img {
+    width: 100%; /* The image takes the full width of its container */
+    height: auto;
+}
+
+.textoverlay {
+    position: absolute; /* Positions the text relative to the container */
+    top: 50%; /* Center the text vertically */
+    left: 50%; /* Center the text horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for perfect centering */
+    color: white; /* Text color */
+    font-size: 24px; /* Set text size */
+    font-weight: bold; /* Make text bold */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional: Add shadow for better readability */
+    padding: 5px 10px; /* Add some padding around the text */
+    text-align: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img {
+    position: relative; /* Make the container a positioned element */
+    display: inline-block; /* Ensures the image and text are treated as one unit */
+    width: 300px; /* Set the desired width of the image */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+
+
+
+/* .textoverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem; 
+    font-family: Arial, Helvetica, sans-serif;
+     } */
+     .text-overlay {
+        position: relative;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 320px;
+     }
+     .text-overlays {
+        position: relative;
+        bottom: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 320px;
+     }
+   
+
+#img .testers{
+    height: 300px;
+}
+/* .noteimg{
+    display: flex;
+}
+.noteimg img{
+    width: 300px;
+    height: auto;
+    border-radius: 70px 70px 70px 70px;
+    padding: 15px;
+} */
+.notes p{
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.season p{
+    text-align: center;
+    font-size: xx-large;
+}
+.seasonimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.seasonimg img{
+    border-radius: 50px 50px 50px 50px;
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+.seasonimg img:hover{
+    transform: translateY(-10px);
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #000;
+    color: #ffe275;
+    padding: 40px 0;
+    font-size: small;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 30px;
+    line-height: 30px;
+  }
+  .rights{
+    text-align: center;
+  }
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #ffe275;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  form input[type="email"] {
+    padding: 10px;
+    font-size: 14px;
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #ffe275;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #ffe275;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+    color: #ffe275;
+  }
+  
+ 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Small Devices (max-width: 576px) */
+
+
+/* Notes Section: Default (Mobile First Design) */
+.noteimg {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center align cards */
+}
+
+.noteimg div {
+    flex: 1 1 calc(50% - 30px); /* Each card takes 50% width with some margin on small screens */
+    max-width: 100%; /* Prevent cards from exceeding screen width */
+    text-align: center; /* Center align content */
+}
+
+.noteimg img {
+    width: 300px;
+    height: auto;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px;
+}
+
+
+.light{
+    background-color: black;
+    color: white;
+  }
+  .dark{
+    background-color: 
+    rgb(255, 255, 255);
+    color: black;
+  }
+  .frontcards:not(light){
+    color: black;
+  }
+
+
+  #mode{
+    background-color: #000;
+    color: #ffe275;
+    font-size: large;
+    position: relative;
+    left: 15%;
+  }
+
+ .frontcards div{
+    flex: 1 1 1calc(50% - 30px);
+    max-width: 610%;
+    margin: 10px;
+    
+ }
+ .container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between cards */
+    flex-wrap: wrap; /* Ensures cards wrap if container is too small */
+    gap: 10px; /* Optional: Adds spacing between cards */
+}
+
+.card {
+    flex: 1 1 calc(25% - 10px); /* Adjusts each card to take 25% of the width */
+    max-width: calc(25% - 10px); /* Ensures cards don't exceed 25% */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+    border-radius: 8px;  */
+    overflow: hidden; /* Prevents image overflow */
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+
+
+ 

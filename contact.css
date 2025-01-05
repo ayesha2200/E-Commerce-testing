@@ -1,0 +1,127 @@
+
+.heading{
+    padding: 5px 5px;
+    background-color: rgb(196, 199, 194);
+    width: auto;
+    color: black;
+    line-height: 10%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form {
+    background-color:rgb(196, 199, 194) ;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0px 80px 5px;
+    font-size: large;
+    display: block;
+    justify-self: center;
+}
+#menu {
+    position: relative;
+}
+
+#toggle-menu {
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#menu-list {
+    position: absolute;
+    top: 50px; /* Adjust to the correct positioning */
+    left: 0;
+    background-color: #333; /* Background color for sidebar */
+    width: 200px; /* Sidebar width */
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    z-index: 1000;
+}
+
+#menu-list li {
+    border-bottom: 1px solid #555; /* Divider between items */
+    
+}
+
+#menu-list li a {
+    color: #ffe275; /* Link color */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    line-height: 40px;
+}
+
+#menu-list li a:hover {
+    background-color: #444; /* Hover effect */
+}
+
+/* Show menu when toggle is active */
+#menu.active #menu-list {
+    display: flex; /* Display the menu items */
+}
+
+/* Responsive Sidebar */
+@media screen and (max-width: 768px) {
+    #menu-list {
+        width: 100%; /* Full-width on smaller screens */
+    }
+
+    #toggle-menu {
+        font-size: 20px;
+    }
+}
+
+input[type="text"], 
+textarea {
+    width: 75%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type="submit"] {
+    background-color: black;
+    font-size: larger;
+    color:#ffe275;  
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+}
+
+input[type="reset"] {
+    background-color: black;
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(90, 89, 89);
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(191, 0, 0);
+}
+.email2{
+    padding: 10px;
+    font-size: 14px;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
